@@ -1,0 +1,10 @@
+link for github or this sample website is https://technothakur1987.github.io/ravan/
+
+this website contains a main sample page with bootstrap 5 used for responsiveness across various devices..Customs classes and id have also ben used to modify the css andjavascript 
+1.mainsample page (index.html )==contains navbar with modifies socail media isons.
+2.thre are two main banners with two diffrent background images and some text .
+3.then three cards used for services section with reviews.
+4.there are two forms login up and conatct form usedwith a blog section and a responsive footer
+5.with there is a custom scroll bar used with a button used to move to top of the page.
+6.In screen szes below 768px width . there will be a navbar with open and close button and all the pages have been linked respectively .. 
+any more changes can be done as per the client requirements.

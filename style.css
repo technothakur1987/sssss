@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+body {
+  overflow-x: hidden !important;
+  font-family: "Roboto", sans-serif !important;
+  scroll-behavior: smooth;
+}
+.myroboto{
+    font-family: 'Rubik Moonrocks', cursive!important;
+}
+
+.mynavclass {
+  background-color: aqua !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.alignitemflexend1 {
+  align-items: flex-end !important;
+}
+.myborder {
+  border-bottom: 2px solid black !important;
+}
+.navbarHover:hover {
+  font-weight: 700px;
+  cursor: pointer;
+  border-bottom: 5px solid black !important;
+  transition: all 1s linear 0s ease-in-out;
+}
+.myhomebanner {
+  height: 70vh !important;
+  width: 100% !important;
+  background-image: url("images/bg11.jfif") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 11vh 0px !important;
+  border-radius: 10px !important;
+}
+.h11 {
+  font-size: 2.5rem !important;
+}
+.p11 {
+  font-size: 1.5rem !important;
+}
+.homebannerebtn {
+  background-color: white;
+  color: black !important;
+  font-weight: bolder!important;
+}
+.homebannerebtn:hover{
+    cursor: pointer!important;
+    border: 1px solid white!important;
+    background-color: black!important;
+    color: white!important;
+    transition: all 3s linear 0s ease-in-out;
+}
+.myhomebanner2 {
+  height: 100vh !important;
+  width: 100% !important;
+  background-image: url("images/bg22.jfif") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-radius: 10px !important;
+}
+.myfont {
+  font-size: 0.6rem!important;
+}
+.homebannerebtn2{
+    background-color: black!important;
+}
+.homebannerebtn2:hover{
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid black!important;
+    font-weight: bolder;
+    transition: all 3s linear 0s ease-in-out;
+
+
+}
+.homebannerebtn22:hover{
+    background-color: black!important;
+    color:white!important;
+    border: 1px solid white!important;
+    font-weight: bolder;
+    transition: all 3s linear 0s ease-in-out;
+
+
+}
+.mybckground {
+  background-color: whitesmoke !important;
+}
+.myimage {
+  height: 25vmin !important;
+  width: 25vmin !important;
+  border-radius: 50% !important;
+}
+.myformbanner {
+  height: 100vh !important;
+  width: 100% !important;
+  background-image: url("images/ggg.webp") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 5vh 0px !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.myformbanner2 {
+    height: 100vh !important;
+    width: 100% !important;
+    background-image: url("images/ooo.jfif")!important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin: 5vh 0px !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+.myhover:hover{
+    cursor: pointer!important;
+    box-shadow: 15px 10px #888888!important;
+    transition: all 3s linear 0s ease-in-out;
+    
+}
+.myhover2:hover{
+    cursor: pointer!important;
+    
+    box-shadow: 15px 10px #888888!important;
+    transition: all 3s linear 0s ease-in-out;
+    
+}
+.myinput {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  background-color:transparent!important;
+  border-bottom: 3px dotted white !important;
+}
+.myborderradius {
+  border-radius: 0 50px 50px 0px !important;
+}
+.placeholder1::placeholder {
+  color: white !important;
+}
+/*styling for scroll*/
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+
+  /* width of the entire scrollbar */
+  transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(15, 11, 5);
+  /* color of the tracking area */
+  transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(purple, orange) !important;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid rgb(192, 187, 177);
+  /* creates padding around scroll thumb */
+  transition: all .15s ease-in-out 0s;
+}
+
+/*scroll for mozilla firefox*/
+body {
+
+  scrollbar-width: 1rem;
+  /* "auto" or "thin" */
+  scrollbar-color: rgb(255, 0, 43) rgb(172, 167, 158);
+  /* scroll thumb and track */
+  transition: all .15s ease-in-out 0s;
+}
+
+.movetotop{
+  position: fixed!important;
+  bottom: 0px!important;
+  right:2vh !important;
+  height: 5rem!important;
+  width: 5rem!important;
+  
+}
+.bttnfixed{
+  background-color: red!important;
+  color: blue!important;
+  border: 2px solid blue!important;
+  font-weight: bolder!important;
+  border-radius: 50%;
+  
+}
+.bbb{
+  margin-top: 2vh!important;
+  margin-bottom: 2vh!important;
+}
+.logoicon{
+  height: 3vh!important;
+  
+}
+
+.mystyle{
+  align-items: center!important;
+}
+.footerlogo{
+  height: 2rem!important;
+}
+.myteammq{
+  margin-top: 2vh!important;
+  margin-bottom: 2vh!important;
+}
